@@ -9,7 +9,7 @@ public class Question3
     int num = in.nextInt();
 
     int multiNum = num * num;
-    System.out.println("The result is " + multiNum);
-    
+
+    System.out.println(multiNum);    
   }
 }
