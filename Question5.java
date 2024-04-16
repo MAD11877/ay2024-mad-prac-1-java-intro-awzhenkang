@@ -9,7 +9,7 @@ public class Question5
     int maxCount = 0;
     int numMode = 0;
 
-    const numArray = [];
+    final ArrayList<Integer> numArray = new ArrayList<>();
 
     for (int i = 0; i < numArray; i++) 
     {
@@ -21,19 +21,19 @@ public class Question5
 
     for (int j: numArray)
     {
-      int count = 0;
+      int currentCount = 0;
 
       for (int k: numArray)
       {
         if (j == k)
         {
-          count++;
+          currentCountt++;
         }
       }
 
-      if (count > maxCount)
+      if (currentCount > maxCount)
       {
-        maxCount = count;
+        maxCount = currentCount;
         numMode = j;
       }
     }
