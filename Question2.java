@@ -16,6 +16,6 @@ public class Question2
 
     let roundedBMI = BMI.toFixed(2);
     
-    System.out.println("Your BMI is " + roundedBMI); 
+    System.out.println("Your BMI is " + roundedBMI);
   }
 }
