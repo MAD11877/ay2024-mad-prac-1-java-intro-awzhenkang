@@ -13,7 +13,6 @@ public class Question5
 
     for (int i = 0; i < maxCount; i++) 
     {
-      System.out.println("Enter an integer: ");
       int num = in.nextInt();
 
       numArray.add(num);
