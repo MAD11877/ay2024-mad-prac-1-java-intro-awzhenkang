@@ -13,6 +13,9 @@ public class Question2
     double weight = in.nextDouble() / 100;
 
     double BMI = weight / (height * height);
-    System.out.println("Your BMI is " + Number(BMI.toFixed(2))); 
+
+    let roundedBMI = BMI.toFixed(2);
+    
+    System.out.println("Your BMI is " + roundedBMI); 
   }
 }
