@@ -11,7 +11,7 @@ public class Question5
 
     final ArrayList<Integer> numArray = new ArrayList<>();
 
-    for (int i = 0; numArray[i]; i++) 
+    for (int i = 0; numArray; i++) 
     {
       System.out.println("Enter an integer: ");
       int num = in.nextInt();
@@ -27,7 +27,7 @@ public class Question5
       {
         if (j == k)
         {
-          currentCountt++;
+          currentCount++;
         }
       }
 
