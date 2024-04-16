@@ -11,6 +11,12 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
+
+    System.out.println("Enter your integer: ");
+    int num = in.nextInt();
+
+    int multiNum = num * num;
+    System.out.println("The result is " + multiNum);
     
   }
 }
