@@ -11,7 +11,7 @@ public class Question5
 
     final ArrayList<Integer> numArray = new ArrayList<>();
 
-    for (int i = 0; numArray; i++) 
+    for (int i = 0; i < maxCount; i++) 
     {
       System.out.println("Enter an integer: ");
       int num = in.nextInt();
