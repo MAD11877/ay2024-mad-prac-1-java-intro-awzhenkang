@@ -9,7 +9,7 @@ public class Question5
     int maxCount = 0;
     int numMode = 0;
 
-    const numArray = []
+    const numArray = [];
 
     for (int i = 0; i < numArray; i++) 
     {
