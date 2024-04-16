@@ -1,19 +1,20 @@
 import java.util.Scanner;
 
-public class Question2
-{
-  public static void main(String[] args)
-  {
-    Scanner in = new Scanner(System.in); 
+public class Question2 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in); 
 
-    System.out.println("Enter your height (in m): ");
-    double height = in.nextDouble() / 100;
+        System.out.println("Enter your height (in m): ");
+        double height = in.nextDouble() / 100;
 
-    System.out.println("Enter your weight (in kg): ");
-    double weight = in.nextDouble() / 100;
+        System.out.println("Enter your weight (in kg): ");
+        double weight = in.nextDouble() / 100;
 
-    double BMI = weight / (height * height);
-    
-    System.out.println("Your BMI is " + BMI);
-  }
+        double BMI = weight / (height * height);
+        
+        // Format BMI to 1 decimal place using String.format()
+        String formattedBMI = String.format("%.1f", BMI);
+        
+        System.out.println("Your BMI is " + formattedBMI);
+    }
 }
