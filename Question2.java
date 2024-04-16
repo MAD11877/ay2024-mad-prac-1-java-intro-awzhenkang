@@ -12,6 +12,8 @@ public class Question2 {
         
         // Format BMI to 1 decimal place using String.format()
         String formattedBMI = String.format("%.1f", BMI);
+
+        System.out.println(formattedBMI);
         
     }
 }
