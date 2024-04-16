@@ -13,6 +13,6 @@ public class Question2
     double weight = in.nextDouble() / 100;
 
     double BMI = weight / (height * height);
-    System.out.println("Your BMI is " + parseFloat(BMI.toFixed(2))); 
+    System.out.println("Your BMI is " + BMI); 
   }
 }
