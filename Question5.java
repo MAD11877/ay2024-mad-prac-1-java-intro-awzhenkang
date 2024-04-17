@@ -9,12 +9,12 @@ public class Question5
     int maxCount = 0;
     int numMode = 0;
 
-    final ArrayList<Integer> numArray = new ArrayList<>();
+    ArrayList<Integer> numArray = new ArrayList<>();
+
+    int num = in.nextInt();
 
     for (int i = 0; i < maxCount; i++) 
     {
-      int num = in.nextInt();
-
       numArray.add(num);
     }
 
@@ -36,6 +36,6 @@ public class Question5
         numMode = j;
       }
     }
-    System.out.println(numMode);
+    System.out.print(numMode);
   }
 }
