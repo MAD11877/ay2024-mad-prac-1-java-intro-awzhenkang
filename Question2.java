@@ -10,7 +10,9 @@ public class Question2 {
         double weight = in.nextDouble() / 100;
 
         double BMI = weight / (height * height);
+
+         double roundedBMI = Math.round(BMI * 10.0) / 10.0;
         
-        System.out.println(BMI);  
+        System.out.println(roundedBMI);  
     }
 }
