@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Question5 {
@@ -12,10 +11,6 @@ public class Question5 {
 
         while ((num = in.nextInt()) != -1) {
             numArray.add(num);
-        }
-
-         if (numArray.isEmpty()) {
-           return;
         }
 
         int maxCount = 0;
