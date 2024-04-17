@@ -8,10 +8,19 @@ public class Question5 {
 
         ArrayList<Integer> numArray = new ArrayList<>();
 
-        int num;
+        while ((in.hasNextInt()) {
+            int num = in.nextInt();
 
-        while ((num = in.nextInt()) != -1) {
+            if (num == -1) 
+            {
+              break;
+            }
             numArray.add(num);
+        }
+
+        if (numArray.isEmpty())
+        {
+          return;
         }
 
         int maxCount = 0;
