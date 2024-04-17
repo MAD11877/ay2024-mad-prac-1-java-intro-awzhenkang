@@ -1,16 +1,18 @@
 import java.util.Scanner;
 
-public class Question2
-{
-  public static void main(String[] args)
-  {
-    /**
-     * Prompts user for height and weight, calculate and print out the BMI of the user
-     * 
-     * Hint: in.nextDouble() to read double
-     */
-     
-    Scanner in = new Scanner(System.in);
-    double height = in.nextDouble();
-  }
+public class Question2 {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in); 
+
+        double height = in.nextDouble() / 100;
+
+        double weight = in.nextDouble() / 10000;
+
+        double BMI = weight / (height * height);
+
+         double roundedBMI = Math.round(BMI * 10.0) / 10.0;
+        
+        System.out.println(roundedBMI);  
+    }
 }
