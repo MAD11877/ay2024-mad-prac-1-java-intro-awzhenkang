@@ -7,13 +7,13 @@ public class Question5
   {
     Scanner in = new Scanner(System.in);
 
-    numArray = [];
+    ArrayList<Integer> numArray = new ArrayList<>();
 
     int num;
 
     while ((num = in.nextInt()) != -1)
     {
-      numArray.push(num);
+      numArray.add(num);
     }
 
     int maxCount = 0;
