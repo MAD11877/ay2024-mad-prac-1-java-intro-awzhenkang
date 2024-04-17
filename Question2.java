@@ -5,7 +5,7 @@ public class Question2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in); 
 
-        double height = in.nextDouble() / 100;
+        double height = in.nextDouble() / 1000;
 
         double weight = in.nextDouble() / 1000;
 
