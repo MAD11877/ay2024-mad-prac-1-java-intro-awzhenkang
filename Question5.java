@@ -8,7 +8,7 @@ public class Question5 {
 
         ArrayList<Integer> numArray = new ArrayList<>();
 
-        while ((in.hasNextInt()) {
+        while ((in.hasNextInt())) {
             int num = in.nextInt();
 
             if (num == -1) 
