@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.ArrayList;
+import java.util.numArray;
 
 public class Question5
 {
@@ -7,7 +7,7 @@ public class Question5
   {
     Scanner in = new Scanner(System.in);
 
-    let ArrayList == [];
+    let numArray = [];
 
     int num;
 
