@@ -1,42 +1,41 @@
-import java.util.numArray;
+import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Question5
-{
-  public static void main(String[] args)
-  {
-    Scanner in = new Scanner(System.in);
+public class Question5 {
+    public static void main(String[] args) {
 
-    ArrayList<Integer> numArray = new ArrayList<>();
+        Scanner in = new Scanner(System.in);
 
-    int num;
+        ArrayList<Integer> numArray = new ArrayList<>();
 
-    while ((num = in.nextInt()) != -1)
-    {
-      numArray.add(num);
-    }
+        int num;
 
-    int maxCount = 0;
-    int numMode = 0;
-
-    for (int j: numArray)
-    {
-      int currentCount = 0;
-
-      for (int k: numArray)
-      {
-        if (j == k)
-        {
-          currentCount++;
+        while ((num = in.nextInt()) != -1) {
+            numArray.add(num);
         }
-      }
 
-      if (currentCount > maxCount)
-      {
-        maxCount = currentCount;
-        numMode = j;
-      }
+        int maxCount = 0;
+        int numMode = 0;
+
+        for (int j: numArray) {
+
+            int currentCount = 0;
+
+            for (int k: numArray) {
+
+                if (j == k) {
+
+                    currentCount++;
+                }
+            }
+
+            if (currentCount > maxCount) {
+
+                maxCount = currentCount;
+                
+                numMode = j;
+            }
+        }
+        System.out.print(numMode);
     }
-    System.out.print(numMode);
-  }
 }
