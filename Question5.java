@@ -7,7 +7,7 @@ public class Question5
   {
     Scanner in = new Scanner(System.in);
 
-    ArrayList<Integer> numArray = new ArrayList<>();
+    let ArrayList = [];
 
     int num;
 
