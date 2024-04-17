@@ -5,7 +5,7 @@ public class Question4
   public static void main(String[] args)
   { 
     Scanner in = new Scanner(System.in);
-    
+
     int base = in.nextInt();
 
     for (int i = base; i > 0; i--)
@@ -14,6 +14,8 @@ public class Question4
       {
         System.out.println("*");
       }
+
+      System.out.println();
     }    
   }
 }
