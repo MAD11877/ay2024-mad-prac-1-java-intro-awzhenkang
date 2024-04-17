@@ -14,6 +14,10 @@ public class Question5 {
             numArray.add(num);
         }
 
+         if (numArray.isEmpty()) {
+           return;
+        }
+
         int maxCount = 0;
         int numMode = 0;
 
@@ -24,7 +28,6 @@ public class Question5 {
             for (int k: numArray) {
 
                 if (j == k) {
-
                     currentCount++;
                 }
             }
@@ -32,7 +35,7 @@ public class Question5 {
             if (currentCount > maxCount) {
 
                 maxCount = currentCount;
-                
+
                 numMode = j;
             }
         }
