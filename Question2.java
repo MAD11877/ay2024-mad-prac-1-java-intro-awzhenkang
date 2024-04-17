@@ -9,7 +9,7 @@ public class Question2 {
 
         double weight = in.nextDouble() / 100;
 
-        double BMI = Math.round(weight / (height * height),2);
+        double BMI = weight / ((height / 100) * (height / 100));
         
         System.out.println(BMI);  
     }
