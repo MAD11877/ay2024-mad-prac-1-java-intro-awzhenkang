@@ -1,5 +1,6 @@
-import java.util.Scanner;
-import java.util.ArrayList;
+const ArrayList = require('java.util.ArrayList');
+const Scanner = require('java.util.Scanner');
+
 
 public class Question5 {
     public static void main(String[] args) {
