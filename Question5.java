@@ -6,17 +6,18 @@ public class Question5
   public static void main(String[] args)
   {
     Scanner in = new Scanner(System.in);
-    int maxCount = 0;
-    int numMode = 0;
 
     ArrayList<Integer> numArray = new ArrayList<>();
 
-    int num = in.nextInt();
+    int num;
 
-    for (int i = 0; i < maxCount; i++) 
+    while ((num = in.nextInt()) != -1)
     {
       numArray.add(num);
     }
+
+    int maxCount = 0;
+    int numMode = 0;
 
     for (int j: numArray)
     {
