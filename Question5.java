@@ -24,7 +24,7 @@ public class Question5 {
         }
 
         int maxCount = 0;
-        int numMode = 0;
+        int Mode = 0;
 
         for (int j: numArray) {
 
@@ -41,9 +41,9 @@ public class Question5 {
 
                 maxCount = currentCount;
 
-                numMode = j;
+                Mode = j;
             }
         }
-        System.out.print(numMode);
+        System.out.print(Mode);
     }
 }
